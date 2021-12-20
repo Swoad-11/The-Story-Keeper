@@ -22,15 +22,23 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password'])
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Story Keeper-Online Book Store</title>
     <!-- custom css file link  -->
+<<<<<<< HEAD
     <link rel="stylesheet" href="css/signup.css">
+=======
+    <link rel="stylesheet" href="./css/Signup.css">
+>>>>>>> main
 </head>
 
 <body>
     <div class="wrapper">
         <h2>Registration</h2>
+<<<<<<< HEAD
         <h4 id="error"><?php if (isset($output)) {
                             echo $output;
                         } ?></h4>
+=======
+        <h4 id="error"><?php if(isset($output)){ echo $output; } ?></h4>
+>>>>>>> main
         <form method="POST" action="signup.php">
             <div class="input-box">
                 <input name="name" id="name" type="text" placeholder="Enter your name" required>
