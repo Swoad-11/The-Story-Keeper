@@ -741,9 +741,9 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
 
             <div class="box">
                 <h3>contact info</h3>
-                <a href="#"> <i class="fas fa-phone"></i> +880-173-1007005 </a>
-                <a href="#"> <i class="fas fa-phone"></i> +880-152-1437606 </a>
                 <a href="mailto:toufiq11swoad@gmail.com"> <i class="fas fa-envelope"></i> toufiq11swoad@gmail.com </a>
+                <a href="mailto:fahim.yussuf06@gmail.com"> <i class="fas fa-envelope"></i> fahim.yussuf06@gmail.com </a>
+                <a href="mailto:sifat.ul.haque58@gmail.com"> <i class="fas fa-envelope"></i> sifat.ul.haque58@gmail.com </a>
             </div>
 
         </div>
